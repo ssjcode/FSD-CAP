@@ -11,11 +11,11 @@ To reduce unnecessary troubles, please note:
 ## Datasets
 Two ways of obtaining data are provided
 
-(1)Through ``torch_geometric.datasets.Planetoid`` and ``torch_geometric.datasets.Amazon`` download Cora & Citeseer & PubMed and Photo & Computers respectively .
-When you run FSD-CAP, it also relies on these two functions to download the dataset
+(1) The datasets Cora, Citeseer, and PubMed can be downloaded using `torch_geometric.datasets.Planetoid`, while Photo and Computers can be downloaded using `torch_geometric.datasets.Amazon`. When running FSD-CAP, it also uses these two classes from PyG to download the datasets.
 
-(2) we can be downloaded at https://github.com/kimiyoung/planetoid and https://github.com/shchur/gnn-benchmark respectively Cora & Citeseer & PubMed and  Photo & Computers
-
+(2) Alternatively, the datasets Cora, Citeseer, and PubMed, as well as Photo and Computers, can be downloaded from the following repositories respectively:  
+- https://github.com/kimiyoung/planetoid  
+- https://github.com/shchur/gnn-benchmark
 
 ## RUN FSD-CAP
   For the node classification task，you can be run through the following command:
