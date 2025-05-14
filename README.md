@@ -9,11 +9,13 @@ To reduce unnecessary troubles, please note:
 ``python=3.10.15`` & ``pytorch >=2.20`` & ``torch-geometric==2.6.1`` & ``ogb==1.3.6``
 
 ## Datasets
-The uploaded dataset may be damaged. Two repair strategies are presented:
+Two ways of obtaining data are provided
 
-(1) can be downloaded at https://github.com/kimiyoung/planetoid and https://github.com/shchur/gnn-benchmark respectively Cora & Citeseer & PubMed and  Photo & Computers
+(1)Through ``torch_geometric.datasets.Planetoid`` and ``torch_geometric.datasets.Amazon`` download Cora & Citeseer & PubMed and Photo & Computers respectively .
+When you run FSD-CAP, it also relies on these two functions to download the dataset
 
-(2) Delete the data in the original data file Through torch_geometric. Datasets. Planetoid and torch_geometric datasets. The Amazon download Cora respectively & Citeseer & PubMed and Photo & Computers
+(2) we can be downloaded at https://github.com/kimiyoung/planetoid and https://github.com/shchur/gnn-benchmark respectively Cora & Citeseer & PubMed and  Photo & Computers
+
 
 ## RUN FSD-CAP
   For the node classification task，you can be run through the following command:
@@ -29,8 +31,8 @@ The uploaded dataset may be damaged. Two repair strategies are presented:
 
   ## Main Baseline Codes
   --
-  --FP 
-  - GCNMF:  "Graph Convolutional Networks for Graphs Containing Missing Features" (https://github.com/marblet/GCNmf)
+  --FP  : " On the Unreasonable Effectiveness of Feature Propagation in Learning on Graphs with Missing Node Features" (https://github.com/twitter-research/feature-propagation )
+  - PCFI:  " CONFIDENCE-BASED FEATURE IMPUTATION FOR GRAPHS WITH PARTIALLY KNOWN FEATURES" (https://github.com/daehoum1/pcfi)
   - SAT: "Learning on Attribute-Missing Graphs" (https://github.com/xuChenSJTU/SAT-master-online)
   - SVGA: "Accurate Node Feature Estimation with Structured Variational Graph Autoencoder" (https://github.com/snudatalab/SVGA)
   - GNN-AC: "Heterogeneous Graph Neural Network via Attribute Completion" (https://github.com/liangchundong/HGNN-AC)
