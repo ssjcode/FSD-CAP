@@ -33,12 +33,12 @@ When you run FSD-CAP, it also relies on these two functions to download the data
   --
   --FP  : " On the Unreasonable Effectiveness of Feature Propagation in Learning on Graphs with Missing Node Features" (https://github.com/twitter-research/feature-propagation )
   - PCFI:  " CONFIDENCE-BASED FEATURE IMPUTATION FOR GRAPHS WITH PARTIALLY KNOWN FEATURES" (https://github.com/daehoum1/pcfi)
-  - SAT: "Learning on Attribute-Missing Graphs" (https://github.com/xuChenSJTU/SAT-master-online)
+  - PaGCN: "Incomplete Graph Learning via Partial Graph Convolutional Network" (https://github.com/yaya1015/PaGCN)
   - SVGA: "Accurate Node Feature Estimation with Structured Variational Graph Autoencoder" (https://github.com/snudatalab/SVGA)
-  - GNN-AC: "Heterogeneous Graph Neural Network via Attribute Completion" (https://github.com/liangchundong/HGNN-AC)
-  - ITR: "Initializing Then Refning: A Simple Graph Attribute Imputation Network" (https://github.com/WxTu/ITR)
-  - SGC: "Simplifying Graph Convolutional Networks" (https://github.com/Tiiiger/SGC)
-  - AGE: "Adaptive Graph Encoder for Attributed Graph Embedding" (https://github.com/thunlp/AGE)
+  - ITR: " Initializing Then Refining: A Simple Graph Attribute Imputation Network" (https://github.com/WxTu/ITR )
+  - GRAFENNE: "GRAFENNE: Learning on Graphs with Heterogeneous and Dynamic Feature Sets" (https://github.com/data-iitd/Grafenne)
+  - ASDVAE: "Incomplete Graph Learning via Attribute-Structure Decoupled Variational Auto-Encoder" (https://github.com/jiangxinke/ASD-VAE)
+
 
 
 
