@@ -4,9 +4,12 @@ This is the Code of "FSD-CAP: Fractional Subgraph Diffusion with Class-Aware Pro
 # For Code
 
 ## Environmental requirements
-Any relevant dependencies and versions in the code can be queried in :FSD-CAP.yml
-To reduce unnecessary troubles, please note: 
-``python=3.10.15`` & ``pytorch >=2.20`` & ``torch-geometric==2.6.1`` & ``ogb==1.3.6``
+All relevant dependencies and their versions can be found in: FSD-CAP.yml. To minimize potential issues, please ensure you use the following versions:
+
+- python=3.10.15
+- pytorch>=2.2.0
+- torch-geometric==2.6.1
+- ogb==1.3.6
 
 ## Datasets
 Two ways of obtaining data are provided
@@ -18,13 +21,15 @@ Two ways of obtaining data are provided
 - https://github.com/shchur/gnn-benchmark
 
 ## RUN FSD-CAP
-  For the node classification task，you can be run through the following command:
+  For the node classification task, you can run the following command:
   ```
   python run_node.py --dataset_name Cora --mask_type structural --missing_rate 0.995
   ```
-  Among them, dataset_name represents the database you want to use. Here are five options - "Cora", "CiteSeer", "PubMed", "Photo", "Computers", and mask_type represents the type of missing data.     "missing_rate" represents the data missing rate.
+  --dataset_name: Choose from "Cora", "CiteSeer", "PubMed", "Photo", "Computers"
+  --mask_type: Missing data pattern — "structural" or "uniform"
+  --missing_rate: Proportion of missing data, e.g., 0.995
   
-  For the edge prediction task，you can be run through the following command:
+  For the link prediction task, you can run:
   ```
   python run_link.py --dataset_name Photo --mask_type uniform --missing_rate 0.995
   ```
