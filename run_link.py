@@ -85,7 +85,7 @@ def run(args):
     aucs, aps = [], []
     
     
-    for seed in tqdm(seeds[: 1]): #args.n_runs
+    for seed in tqdm(seeds[: args.n_runs]): 
         torch.manual_seed(seed)
         torch.cuda.manual_seed(seed)
         torch.cuda.manual_seed_all(seed)
