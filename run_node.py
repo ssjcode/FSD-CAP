@@ -73,7 +73,7 @@ def run(args):
     
     test_accs = []
 
-    for seed in seeds[ : 1 ]: #args.n_runs
+    for seed in seeds[ : args.n_runs ]: 
         
         num_classes = dataset.num_classes
         data = set_train_val_test_split( 
