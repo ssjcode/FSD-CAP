@@ -23,11 +23,12 @@ Two ways of obtaining data are provided
 ## RUN FSD-CAP
   For the node classification task, you can run the following command:
   ```
-  python run_node.py --dataset_name Cora --mask_type structural --missing_rate 0.995
+  python run_node.py --dataset_name Cora --mask_type structural --missing_rate 0.995 --gamma 1.2 --lamda 0.2 --T 1000
   ```
   --dataset_name: Choose from "Cora", "CiteSeer", "PubMed", "Photo", "Computers"
   --mask_type: Missing data pattern — "structural" or "uniform"
   --missing_rate: Proportion of missing data, e.g., 0.995
+  --gamma、lamda、T: Correspond to the symbol of the thesis
   
   For the link prediction task, you can run:
   ```
