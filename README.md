@@ -44,6 +44,10 @@ Two ways of obtaining data are provided
   - GRAFENNE: "GRAFENNE: Learning on Graphs with Heterogeneous and Dynamic Feature Sets" (https://github.com/data-iitd/Grafenne)
   - ASDVAE: "Incomplete Graph Learning via Attribute-Structure Decoupled Variational Auto-Encoder" (https://github.com/jiangxinke/ASD-VAE)
 
+  ## LICENSE
+  The code is ApacheLicense 2.0.The full license text can be found in the LICENSE file.
+  
+  
 
 
 
