@@ -35,6 +35,8 @@ Two ways of obtaining data are provided
   python run_link.py --dataset_name Photo --mask_type uniform --missing_rate 0.995
   ```
   ## Results
+  If you run the command as required in the paper, you will get:
+  
   For node classification:
   ![image](https://github.com/user-attachments/assets/063221aa-9c44-44a9-b1ee-f1e2411000ff)
 
