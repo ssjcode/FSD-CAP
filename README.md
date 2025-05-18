@@ -33,7 +33,14 @@ Two ways of obtaining data are provided
   ```
   python run_link.py --dataset_name Photo --mask_type uniform --missing_rate 0.995
   ```
+  ## Results
+  For node classification:
+  ![image](https://github.com/user-attachments/assets/063221aa-9c44-44a9-b1ee-f1e2411000ff)
 
+  For link prediction 
+ ![image](https://github.com/user-attachments/assets/a4e89f1d-9a7f-4222-b2ab-52da0b6ddbae)
+
+  
   ## Main Baseline Codes
   --
   - FP  : " On the Unreasonable Effectiveness of Feature Propagation in Learning on Graphs with Missing Node Features" (https://github.com/twitter-research/feature-propagation )
