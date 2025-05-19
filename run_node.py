@@ -114,7 +114,6 @@ def run(args):
                 test_acc = tmp_test_acc
             val_accs.append(val_acc)
             if epoch > args.patience and max(val_accs[-args.patience :]) <= max(val_accs[: -args.patience]):
-                stop_epoch = epoch
                 break
 
         test_accs.append(test_acc)
