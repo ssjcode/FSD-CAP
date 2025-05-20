@@ -39,6 +39,7 @@ Two ways of obtaining data are provided
   
   For node classification:
   ![image](https://github.com/user-attachments/assets/063221aa-9c44-44a9-b1ee-f1e2411000ff)
+  ![](./image/result1.png)
 
   For link prediction 
  ![image](https://github.com/user-attachments/assets/a4e89f1d-9a7f-4222-b2ab-52da0b6ddbae)
