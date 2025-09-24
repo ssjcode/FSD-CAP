@@ -1,5 +1,5 @@
 # FSD-CAP
-This is the Code of "FSD-CAP: Fractional Subgraph Diffusion with Class-Aware Propagation for Graph Feature Imputation"([https://arxiv.org/abs/2030.12345]. 
+This is the Code of "FSD-CAP: Fractional Subgraph Diffusion with Class-Aware Propagation for Graph Feature Imputation". 
 
 # For Code
 
